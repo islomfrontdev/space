@@ -34,7 +34,7 @@ header {
   background-color: #fff;
 }
 main {
-  height: calc(100vh - 110px);
+  height: calc(100vh - 100px);
   background-color: #f5f5f5;
 }
 .title {
@@ -142,4 +142,14 @@ main {
 .posts-wrapper::-webkit-scrollbar-thumb:horizontal {
   width: 8px;
   height: 4px;
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #bdbdbd;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
 }
