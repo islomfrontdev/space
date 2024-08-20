@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Avenir";
+  src: url(./fonts/avenir/AvenirLTStd-Roman.otf);
+}
+@font-face {
+  font-family: "Urbanist";
+  src: url(./fonts/Urbanist-Medium.ttf);
+}
+* {
+  font-family: "Urbanist";
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f5f5f5;
+}
+a {
+  text-decoration: none;
+  color: #424242;
+}
+.create-post-btn {
+  background-color: transparent;
+  border: 2px solid #ef400f;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #ef400f;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+main {
+  height: calc(100vh - 110px);
+  background-color: #f5f5f5;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  color: #0e0d5d;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Urbanist";
+}
+.levels {
+  width: 200px;
+  background-color: #fafafa;
+  padding: 8px;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+.levels p {
+  margin: 0;
+  padding: 0;
+  color: #ef400f;
+}
+.std-name {
+  color: #0e0d5d;
+  font-size: 18px;
+  font-weight: bold;
+}
+.std-gr {
+  font-size: 14px;
+  color: #bdbdbd;
+}
+.std-coins {
+  background: linear-gradient(286.17deg, #e33d0e 0%, #ff7d58 100%);
+}
+.std-coins p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+.friend-name {
+  color: #0e0d5d;
+  font-weight: bold;
+}
+.friend-gr {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+.friends img {
+  background-color: #f5f5f5;
+}
+.posts-wrapper {
+  height: 75vh;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+.post {
+  width: 100%;
+}
+
+.post-std {
+  color: #0e0d5d;
+  font-weight: bold;
+}
+.post-date {
+  font-size: 12px;
+  color: #bdbdbd;
+}
+.post-comment {
+  font-size: 13px;
+  line-height: 14px;
+}
+.post input {
+  border: none;
+  outline: none;
+  background-color: #fafafa;
+}
+.post button {
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 4px;
+  color: #bdbdbd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.posts-wrapper::-webkit-scrollbar {
+  width: 0;
+  height: 8px;
+}
+
+.posts-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.posts-wrapper::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.posts-wrapper::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.posts-wrapper::-webkit-scrollbar-thumb:horizontal {
+  width: 8px;
+  height: 4px;
+}
